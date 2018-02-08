@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="description" content="my first bootstrap html">
+<meta name="keywords" content="HTML5, CSS3, bootstrap, Javascript, XML">
+<meta name="author" content="Khairul Zaman">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>My Bootstrap Page</title>
+
+<head>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- fontawesome script for social media icons -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header class="jumbotron">
+            <h1>MetaStudios</h1>
+            <p>Film Sound Design</p>
+        </header>
+
+        <!-- nav menu bar -->
+        <nav class="navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">MetaStudios</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="bootstrap.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="bootstrap_about.html">About</a>
+                    </li>
+                    <li class="active">
+                        <a href="bootstrap_contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <form class="navbar-form navbar-right" action="/action_page.php">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <hr>
+
+        <!-- Contact Section -->
+
+        <h3 class="text-left">Testimonials</h3>  
+        <ul class="nav nav-tabs">
+          <li class="active"><a data-toggle="tab" href="#home">ClientA</a></li>
+          <li><a data-toggle="tab" href="#menu1">ClientB</a></li>
+          <li><a data-toggle="tab" href="#menu2">ClientC</a></li>
+        </ul>
+      
+        <div class="tab-content">
+          <div id="home" class="tab-pane fade in active">
+              <br>
+            <p>"Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis!"</p>
+          </div>
+          <div id="menu1" class="tab-pane fade">
+              <br>
+            <p>"Always a pleasure people! Could I be any more pleased?"</p>
+          </div>
+          <div id="menu2" class="tab-pane fade">
+              <br>
+            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium."</p>
+          </div>
+        </div>
+        <hr>
+        <div id="contact" class="container">
+        <h3 class="text-left">Leave us a note!</h3>
+      
+        <div class="row">
+          <div class="col-md-4">
+            <p><span class="glyphicon glyphicon-map-marker"></span>Blk 79, Ayer Rajah Ave, Singapore</p>
+            <p><span class="glyphicon glyphicon-phone"></span>Phone: +65 6410 223</p>
+            <p><span class="glyphicon glyphicon-envelope"></span>Email: queries@metastudios.com</p>
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-sm-6 form-group">
+                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+              </div>
+              <div class="col-sm-6 form-group">
+                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+              </div>
+            </div>
+            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+            <br>
+            <div class="row">
+              <div class="col-md-12 form-group">
+                <button type="button" button class="btn btn-primary" type="submit">Send</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+      </div>
+      <hr>
+
+        <!-- footer -->
+        <footer class="text-right">
+            Copyright &copy; 2018 MetaStudios
+        </footer>
+    </div>
+
+  
+</body>
+
+</html>
